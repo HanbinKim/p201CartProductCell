@@ -21,6 +21,13 @@
 		009139FB187AD1CE00746CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009139DD187AD1CE00746CE4 /* UIKit.framework */; };
 		00913A03187AD1CE00746CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00913A01187AD1CE00746CE4 /* InfoPlist.strings */; };
 		00913A05187AD1CE00746CE4 /* p201CartProductCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00913A04187AD1CE00746CE4 /* p201CartProductCellTests.m */; };
+		00913A10187AD1FC00746CE4 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00913A0F187AD1FC00746CE4 /* Product.m */; };
+		00913A16187AD20100746CE4 /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00913A11187AD20100746CE4 /* car1.png */; };
+		00913A17187AD20100746CE4 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00913A12187AD20100746CE4 /* car2.png */; };
+		00913A18187AD20100746CE4 /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00913A13187AD20100746CE4 /* car3.png */; };
+		00913A19187AD20100746CE4 /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = 00913A14187AD20100746CE4 /* car4.png */; };
+		00913A1A187AD20100746CE4 /* car5.png in Resources */ = {isa = PBXBuildFile; fileRef = 00913A15187AD20100746CE4 /* car5.png */; };
+		00913A24187AD2AE00746CE4 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00913A23187AD2AE00746CE4 /* ProductCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		00913A00187AD1CE00746CE4 /* p201CartProductCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "p201CartProductCellTests-Info.plist"; sourceTree = "<group>"; };
 		00913A02187AD1CE00746CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00913A04187AD1CE00746CE4 /* p201CartProductCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p201CartProductCellTests.m; sourceTree = "<group>"; };
+		00913A0E187AD1FC00746CE4 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		00913A0F187AD1FC00746CE4 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		00913A11187AD20100746CE4 /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
+		00913A12187AD20100746CE4 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		00913A13187AD20100746CE4 /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
+		00913A14187AD20100746CE4 /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car4.png; sourceTree = "<group>"; };
+		00913A15187AD20100746CE4 /* car5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car5.png; sourceTree = "<group>"; };
+		00913A21187AD28E00746CE4 /* CartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartDelegate.h; sourceTree = "<group>"; };
+		00913A22187AD2AE00746CE4 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		00913A23187AD2AE00746CE4 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +99,11 @@
 		009139CD187AD1CD00746CE4 = {
 			isa = PBXGroup;
 			children = (
+				00913A11187AD20100746CE4 /* car1.png */,
+				00913A12187AD20100746CE4 /* car2.png */,
+				00913A13187AD20100746CE4 /* car3.png */,
+				00913A14187AD20100746CE4 /* car4.png */,
+				00913A15187AD20100746CE4 /* car5.png */,
 				009139DF187AD1CE00746CE4 /* p201CartProductCell */,
 				009139FE187AD1CE00746CE4 /* p201CartProductCellTests */,
 				009139D8187AD1CE00746CE4 /* Frameworks */,
@@ -112,6 +134,10 @@
 		009139DF187AD1CE00746CE4 /* p201CartProductCell */ = {
 			isa = PBXGroup;
 			children = (
+				00913A22187AD2AE00746CE4 /* ProductCell.h */,
+				00913A23187AD2AE00746CE4 /* ProductCell.m */,
+				00913A0E187AD1FC00746CE4 /* Product.h */,
+				00913A0F187AD1FC00746CE4 /* Product.m */,
 				009139E8187AD1CE00746CE4 /* AppDelegate.h */,
 				009139E9187AD1CE00746CE4 /* AppDelegate.m */,
 				009139EB187AD1CE00746CE4 /* Main.storyboard */,
@@ -119,6 +145,7 @@
 				009139EF187AD1CE00746CE4 /* ViewController.m */,
 				009139F1187AD1CE00746CE4 /* Images.xcassets */,
 				009139E0187AD1CE00746CE4 /* Supporting Files */,
+				00913A21187AD28E00746CE4 /* CartDelegate.h */,
 			);
 			path = p201CartProductCell;
 			sourceTree = "<group>";
@@ -229,7 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				009139F2187AD1CE00746CE4 /* Images.xcassets in Resources */,
+				00913A17187AD20100746CE4 /* car2.png in Resources */,
+				00913A18187AD20100746CE4 /* car3.png in Resources */,
+				00913A19187AD20100746CE4 /* car4.png in Resources */,
 				009139E4187AD1CE00746CE4 /* InfoPlist.strings in Resources */,
+				00913A16187AD20100746CE4 /* car1.png in Resources */,
+				00913A1A187AD20100746CE4 /* car5.png in Resources */,
 				009139ED187AD1CE00746CE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00913A24187AD2AE00746CE4 /* ProductCell.m in Sources */,
 				009139F0187AD1CE00746CE4 /* ViewController.m in Sources */,
+				00913A10187AD1FC00746CE4 /* Product.m in Sources */,
 				009139EA187AD1CE00746CE4 /* AppDelegate.m in Sources */,
 				009139E6187AD1CE00746CE4 /* main.m in Sources */,
 			);
